@@ -1,0 +1,150 @@
+POST http://localhost:8080/api/playground/v1/kids?pplaySiteType=carousel
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "9", "name": "Mike", "ticketNumber": "001122341" }
+
+<> 2023-05-15T230829.201.json
+
+
+
+
+###
+POST http://localhost:8080/api/playground/v1/kids
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "9", "name": "Robert", "ticketNumber": "00112256" }
+
+<> 2023-05-18T065202.201.json
+
+###
+POST http://localhost:8080/api/playground/v1/kids
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "10", "name": "Robert", "ticketNumber": "00112257" }
+
+###
+POST http://localhost:8080/api/playground/v1/kids
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "5", "name": "Mart", "ticketNumber": "00112258" }
+
+###
+POST http://localhost:8080/api/playground/v1/kids
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "3", "name": "Dean", "ticketNumber": "00112259" }
+
+###
+POST http://localhost:8080/api/playground/v1/kids?playSiteType=slide
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "3", "name": "Bo", "ticketNumber": "001122100" }
+
+<> 2023-05-18T065156.201.json
+
+###
+POST http://localhost:8080/api/playground/v1/kids?playSiteType=slide
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "3", "name": "Bob", "ticketNumber": "001122101" }
+
+###
+POST http://localhost:8080/api/playground/v1/kids?playSiteType=double_swings
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "7", "name": "Bobby", "ticketNumber": "001122102" }
+
+###
+POST http://localhost:8080/api/playground/v1/kids?playSiteType=double_swings
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "3", "name": "Ben", "ticketNumber": "0011221345" }
+
+<> 2023-05-15T230107.201.json
+
+###
+POST http://localhost:8080/api/playground/v1/kids?playSiteType=double_swings
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "3", "name": "Jade", "ticketNumber": "0011221326" }
+
+<> 2023-05-15T230242.201.json
+<> 2023-05-15T230107.201.json
+
+###
+POST http://localhost:8080/api/playground/v1/kids?playSiteType=double_swings
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "7", "name": "Anna", "ticketNumber": "00114772346" }
+
+<> 2023-05-15T230552.201.json
+<> 2023-05-15T230503.201.json
+
+###
+POST http://localhost:8080/api/playground/v1/kids?playSiteType=double_swings
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "10", "name": "Gert", "ticketNumber": "001122103" }
+
+###
+POST http://localhost:8080/api/playground/v1/kids?playSiteType=double_swings
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "10", "name": "Gert1", "ticketNumber": "001122105" }
+
+<> 2023-05-18T065138.201.json
+<> 2023-05-15T225736.201.json
+
+###
+POST http://localhost:8080/api/playground/v1/kids?playSiteType=double_swings
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "10", "name": "Gert2", "ticketNumber": "001122106" }
+
+<> 2023-05-18T065140.201.json
+<> 2023-05-15T225741.201.json
+
+###
+POST http://localhost:8080/api/playground/v1/kids?playSiteName=double_swings
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "10", "name": "Gert3", "ticketNumber": "001122107" }
+
+<> 2023-05-18T065144.201.json
+<> 2023-05-15T225753.201.json
+
+###
+POST http://localhost:8080/api/playground/v1/kids?playSiteName=double_swings
+Content-Type: application/json
+Accept: application/json
+
+{ "age": "10", "name": "Gert4", "ticketNumber": "001122108" }
+
+<> 2023-05-18T065147.201.json
+<> 2023-05-18T062111.201.json
+
+###
+DELETE http://localhost:8080/api/playground/v1/kids?ticketNumber=1122106
+
+Content-Type: */*
+Accept: application/json
+
+<> 2023-05-18T062127.200.json
+<> 2023-05-15T231008.200.json
+
+

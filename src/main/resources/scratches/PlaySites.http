@@ -1,0 +1,61 @@
+###
+POST http://localhost:8080/api/playground/v1/playsites?newPlaySiteType=doUbLe_swIngs
+Content-Type: application/json
+Accept: application/json
+
+<> 2023-05-18T065023.201.json
+<> 2023-05-18T064851.500.json
+<> 2023-05-18T064651.500.json
+<> 2023-05-18T062020.201.json
+
+###
+POST http://localhost:8080/api/playground/v1/playsites?newPlaySiteType=carousel
+Content-Type: application/json
+Accept: application/json
+
+<> 2023-05-18T062034.201.json
+<> 2023-05-15T233029.201.json
+<> 2023-05-15T233028-1.201.json
+<> 2023-05-15T233028.201.json
+
+
+###
+POST http://localhost:8080/api/playground/v1/playsites?newPlaySiteType=SLIDE
+Content-Type: application/json
+Accept: application/json
+
+<> 2023-05-18T065103.201.json
+<> 2023-05-18T062039.201.json
+<> 2023-05-15T233026.201.json
+
+###
+POST http://localhost:8080/api/playground/v1/playsites?newPlaySiteType=ball_pit
+Content-Type: application/json
+Accept: application/json
+
+<> 2023-05-18T065036.201.json
+<> 2023-05-18T062048.201.json
+<> 2023-05-18T062046.201.json
+<> 2023-05-18T062045.201.json
+<> 2023-05-15T233023.201.json
+
+
+###
+GET http://localhost:8080/api/playground/v1/playsites/utilization/
+Content-Type: application/json
+Accept: application/json
+
+<> 2023-05-18T065214.200.json
+<> 2023-05-18T065128.200.json
+<> 2023-05-18T065043.200.json
+<> 2023-05-15T233036.200.json
+<> 2023-05-15T233015.200.json
+<> 2023-05-15T230923.200.json
+<> 2023-05-15T230000.200.json
+
+###
+GET http://localhost:8080/api/playground/v1/visitors/
+
+<> 2023-05-15T233033.200.txt
+<> 2023-05-15T233009.200.txt
+
